@@ -1,1 +1,25 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="aboutstyle.css">
+</head>
+<body>
+    <div class="about">
+        <div class="inner-section">
+            <h1>About Us</h1>
+            <p class="text">
+                The best online shop for women, men and kids. The variety of our products speaks for itself, with many contributors
+                from differet high-brand fashion industries, while also supportig our local stores in the heart of the capital.
+            </p>
+            <div class="skills">
+                <button>More about us</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
