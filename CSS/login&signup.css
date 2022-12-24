@@ -7,7 +7,7 @@
     font-family: 'IBM Plex Sans', serif; 
   }
   body {
-    background:url();
+    background:url(/Photos/Background/backgr-1.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,7 +77,7 @@
       right: 0;
       width: 100%;
       position: absolute;
-      background: #3498db;
+      background: linear-gradient(to left,black,white);
       height: 100%;
       z-index: -1;
       transform: skew(10deg, 10deg);
