@@ -13,7 +13,7 @@ body{
 }
 
 .about{
-  background-image: url(image3.jpg);
+  background-image: url(../Photos/Background/aboutus.jpg);
   background-repeat: no-repeat;
   background-size: 55%;
   background-color: #fdfdfd;
