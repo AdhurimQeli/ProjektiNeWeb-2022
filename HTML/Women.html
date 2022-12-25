@@ -1,1 +1,554 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/men.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+</head>
+
+<body>
+        <style>
+            body{
+                background: url(../Photos/Background/background-2.webp);
+            }
+                *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto' , sans-serif;
+    
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: lightgrey; opacity: 0.8;
+    z-index: 9;
+
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logoc{
+    height: 55px;
+
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 450px;
+    display: flex;
+
+}
+.search-b{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    color: #a9a9a9;
+    outline: none;
+
+}
+
+
+.search-button{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+     background: grey;
+     color:#fff;
+     text-transform: capitalize;
+     font-size: 15px;
+     border-top-right-radius: 10px;
+     border-top-right-radius: 10px;
+}
+
+.nav-items a{
+    margin-left: 20px;
+}
+
+.links-container{
+    width: 100%;
+    display: flex;
+    padding: 9px 9vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+    border: solid 1px;
+    background-color: lightgray;
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    transition: .5s;
+
+
+}
+.link:hover{
+    opacity: 1;
+    background-color: grey;
+    color: white;
+}
+
+img:hover{
+    border: solid 2px orange;
+}
+@import 'nav.css';
+body{
+    background-image: url("../img/tik.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+   margin-left: 44%;
+   margin-top: 100px;
+    width: 150px;
+    height: 100px;
+    display: block;
+    
+    
+}
+
+.sub-heading{
+ 
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size:34px;
+    font-weight: 300;
+    
+}
+
+/*Products*/
+.product{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    margin-top: 210px;
+   
+}
+
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.product-container{
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+}
+
+.product-container::-webkit-scrollbar{
+    display: none;
+
+}
+
+.product-card{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+
+}
+
+.product-image{
+    position: relative;
+    width: 99%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.product-thumb{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.discount-tag{
+    position: absolute;
+    background:#fff;
+    padding:5px;
+    border-radius: 5px;
+    color: red;
+    margin-top: 69px;
+    margin-right:75%;
+    top: 10px;
+
+}
+
+.card-btn{
+    position:absolute;
+    bottom: 10px;
+    left: 20%;
+    padding: 10px;
+    width: 10%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background:white;
+    border-radius: 4;
+    cursor: pointer;
+    opacity: 0;
+
+}
+
+.product-card:hover .card-btn{
+    opacity: 1;
+
+}
+
+.card-btn:hover{
+    background-color: lightgray;
+}
+
+.product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    color: white;
+    opacity: 1;
+
+}
+.product-brand{
+    text-transform: uppercase;
+}
+.product-shirt{
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+.price{
+    font-weight: 900;
+    font-size: 25px;
+}
+.actual-price{
+    margin-left: 10%;
+    opacity: 0.8;
+    text-decoration: line-through;
+}
+#sec{
+    height: 300px;
+    height: 100%;
+}
+        </style>
+    <section>
+        
+        <header>
+            <h2> <a href="#" class="logo">Logo</a></h2>
+            <div class="navigation">
+                <a href="Home.html">Home</a>
+                <a href="Men.html">Men</a>
+                <a href="Women.html">Women</a>
+                <a href="About.html">About</a>
+                <a href="login.html">Login</a>
+            </div>
+            <label for="check">
+                <i class="fas fa-bars menu-btn"></i>
+                <i class="fas fa-times close-btn"></i>
+            </label>
+        </header>
+        <img src="../Photos/Background/header-section.webp" id="sec" alt="">
+        <section class="product">
+                <h2 class="product-category">Best sellings </h2>
+                <div class="product-container">
+                    <div class="product-card">
+                        <div class="produkt-image">
+                            <span class="discount-tag">50% off</span>
+                            <button class="card-btn">add to whislist</button>
+                            <img src="../Photos/Clothes/jacket1.webp" alt="" class="product-thumb">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-shirt"> A short line about the cloth..</p>
+                            <span class="price"><b>$60</b></span><span class="actual-price"><b>$120</b></span>
+                        </div>
+            
+                        
+                    </div>
+            
+                    <div class="product-card">
+                        <div class="produkt-image">
+                            <span class="discount-tag">50% off</span>
+                            <button class="card-btn">add to whislist</button>
+                            <img src="../Photos/Clothes/jacket2.jpg" alt="" class="product-thumb">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-shirt"> A short line about the cloth..</p>
+                            <span class="price"><b>$55</b></span><span class="actual-price"><b>$110</b></span>
+                        </div>
+            
+                        
+                    </div>
+            
+                    <div class="product-card">
+                        <div class="produkt-image">
+                            <span class="discount-tag">50% off</span>
+                            <button class="card-btn">add to whislist</button>
+                            <img src="../Photos/Clothes/jack002.webp" alt="" class="product-thumb">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-shirt"> A short line about the cloth..</p>
+                            <span class="price"><b>$60</b></span><span class="actual-price"><b>$120</b></span>
+                        </div>
+            
+                        
+                    </div>
+            
+                    <div class="product-card">
+                        <div class="produkt-image">
+                            <span class="discount-tag">50% off</span>
+                            <button class="card-btn">add to whislist</button>
+                            <img src="../Photos/Clothes/jack003.webp" alt="" class="product-thumb">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-shirt"> A short line about the cloth..</p>
+                            <span class="price"><b>$40</b></span><span class="actual-price"><b>$80</b></span>
+                        </div>
+            
+                        
+                    </div>
+            
+            
+            <br>
+            
+            
+                
+            </div>
+            
+            
+            
+            
+            
+                </div>
+                <br>
+            
+                <div class="product-container">
+                    <div class="product-card">
+                        <div class="produkt-image">
+                            <span class="discount-tag">50% off</span>
+                            <button class="card-btn">add to whislist</button>
+                            <img src="../Photos/Clothes/timb1.webp" alt="" class="product-thumb">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-shirt"> A short line about the cloth..</p>
+                            <span class="price"><b>$100</b></span><span class="actual-price"><b>$200</b></span>
+                        </div>
+            
+                        
+                    </div>
+            
+                    <div class="product-card">
+                        <div class="produkt-image">
+                            <span class="discount-tag">50% off</span>
+                            <button class="card-btn">add to whislist</button>
+                            <img src="../Photos/Clothes/timb3.jpg" alt="" class="product-thumb">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Timberland</h2>
+                            <p class="product-shirt"> A short line about the cloth..</p>
+                            <span class="price"><b>$80</b></span><span class="actual-price"><b>$160</b></span>
+                        </div>
+            
+                        
+                    </div>
+            
+                    <div class="product-card">
+                        <div class="produkt-image">
+                            <span class="discount-tag">50% off</span>
+                            <button class="card-btn">add to whislist</button>
+                            <img src="../Photos/Clothes/timb33.webp" alt="" class="product-thumb">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Timberland</h2>
+                            <p class="product-shirt"> A short line about the cloth..</p>
+                            <span class="price"><b>$90</b></span><span class="actual-price"><b>$180</b></span>
+                        </div>
+            
+                        
+                    </div>
+            
+                    <div class="product-card">
+                        <div class="produkt-image">
+                            <span class="discount-tag">50% off</span>
+                            <button class="card-btn">add to whislist</button>
+                            <img src="../Photos/Clothes/timb2.webp" alt="" class="product-thumb">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Timberland</h2>
+                            <p class="product-shirt"> A short line about the cloth..</p>
+                            <span class="price"><b>$100</b></span><span class="actual-price"><b>$200</b></span>
+                        </div>
+            
+                        </div>
+                    </div>
+                    <br>
+                    <div class="product-container">
+                        <div class="product-card">
+                            <div class="produkt-image">
+                                <span class="discount-tag">50% off</span>
+                                <button class="card-btn">add to whislist</button>
+                                <img src="../Photos/Clothes/jack111.avif" alt="" class="product-thumb">
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">brand</h2>
+                                <p class="product-shirt"> A short line about the cloth..</p>
+                                <span class="price"><b>$20</b></span><span class="actual-price"><b>$40</b></span>
+                            </div>
+                
+                            
+                        </div>
+                
+                        <div class="product-card">
+                            <div class="produkt-image">
+                                <span class="discount-tag">50% off</span>
+                                <button class="card-btn">add to whislist</button>
+                                <img src="../Photos/Clothes/jack333.avif" alt="" class="product-thumb">
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">brand</h2>
+                                <p class="product-shirt"> A short line about the cloth..</p>
+                                <span class="price"><b>$20</b></span><span class="actual-price"><b>$40</b></span>
+                            </div>
+                
+                            
+                        </div>
+                
+                        <div class="product-card">
+                            <div class="produkt-image">
+                                <span class="discount-tag">50% off</span>
+                                <button class="card-btn">add to whislist</button>
+                                <img src="../Photos/Clothes/jack222.jpg" alt="" class="product-thumb">
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">brand</h2>
+                                <p class="product-shirt"> A short line about the cloth..</p>
+                                <span class="price"><b>$20</b></span><span class="actual-price"><b>$40</b></span>
+                            </div>
+                
+                            
+                        </div>
+                
+                        <div class="product-card">
+                            <div class="produkt-image">
+                                <span class="discount-tag">50% off</span>
+                                <button class="card-btn">add to whislist</button>
+                                <img src="../Photos/Clothes/Ski-Clothing1-Man.jpg" alt="" class="product-thumb">
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">brand</h2>
+                                <p class="product-shirt"> A short line about the cloth..</p>
+                                <span class="price"><b>$20</b></span><span class="actual-price"><b>$40</b></span>
+                            </div>
+                
+                            
+                        </div>
+                        </div>
+                        <div class="product-container">
+                            <div class="product-card">
+                                <div class="produkt-image">
+                                    <span class="discount-tag">50% off</span>
+                                    <button class="card-btn">add to whislist</button>
+                                    <img src="../Photos/Shoes/gl2.jpg" alt="" class="product-thumb">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-brand">brand</h2>
+                                    <p class="product-shirt"> A short line about the cloth..</p>
+                                    <span class="price"><b>$20</b></span><span class="actual-price"><b>$40</b></span>
+                                </div>
+                    
+                                
+                            </div>
+                    
+                            <div class="product-card">
+                                <div class="produkt-image">
+                                    <span class="discount-tag">50% off</span>
+                                    <button class="card-btn">add to whislist</button>
+                                    <img src="../Photos/Shoes/gl4.jfif" alt="" class="product-thumb">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-brand">brand</h2>
+                                    <p class="product-shirt"> A short line about the cloth..</p>
+                                    <span class="price"><b>$20</b></span><span class="actual-price"><b>$40</b></span>
+                                </div>
+                    
+                                
+                            </div>
+                    
+                            <div class="product-card">
+                                <div class="produkt-image">
+                                    <span class="discount-tag">50% off</span>
+                                    <button class="card-btn">add to whislist</button>
+                                    <img src="../Photos/Shoes/hats2.jfif" alt="" class="product-thumb">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-brand">brand</h2>
+                                    <p class="product-shirt"> A short line about the cloth..</p>
+                                    <span class="price"><b>$20</b></span><span class="actual-price"><b>$40</b></span>
+                                </div>
+                    
+                                
+                            </div>
+                    
+                            <div class="product-card">
+                                <div class="produkt-image">
+                                    <span class="discount-tag">50% off</span>
+                                    <button class="card-btn">add to whislist</button>
+                                    <img src="../Photos/Shoes/hats4.jfif" alt="" class="product-thumb">
+                                </div>
+                                <div class="product-info">
+                                    <h2 class="product-brand">brand</h2>
+                                    <p class="product-shirt"> A short line about the cloth..</p>
+                                    <span class="price"><b>$20</b></span><span class="actual-price"><b>$40</b></span>
+                                </div>
+                    
+                                
+                            </div>
+               </section>
+</html>
