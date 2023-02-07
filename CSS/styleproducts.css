@@ -1,0 +1,133 @@
+/*Products*/
+.product{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    margin-top: 210px;
+   
+}
+
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.product-container{
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+}
+
+.product-container::-webkit-scrollbar{
+    display: none;
+
+}
+
+.product-card{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+
+}
+
+.product-image{
+    position: relative;
+    width:;
+    height: 350px;
+    
+   
+}
+
+.product-thumb{
+    width: 240px;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    
+  
+}.product-thumb:hover{
+    animation-name: onmouse;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    border-radius: 10px;
+}
+
+@keyframes onmouse{
+    from{}
+    to{height: 356px;border-radius: 14px;border:red solid 2px }
+}
+.discount-tag{
+    position: absolute;
+    background:#fff;
+    padding:5px;
+    border-radius: 5px;
+    color: red;
+    margin-top: 69px;
+    margin-right:75%;
+    top: 10px;
+
+}
+
+.card-btn{
+    position:absolute;
+    bottom: 10px;
+    left: 20%;
+    padding: 10px;
+    width: 10%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background:white;
+    border-radius: 4;
+    cursor: pointer;
+    opacity: 0;
+
+}
+
+.product-card:hover .card-btn{
+    opacity: 1;
+
+}
+
+.card-btn:hover{
+    background-color: lightgray;
+}
+
+.product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    color: white;
+    opacity: 1;
+
+}
+.product-brand{
+    text-transform: uppercase;
+}
+.product-shirt{
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+.price{
+    font-weight: 900;
+    font-size: 25px;
+}
+.actual-price{
+    margin-left: 10%;
+    opacity: 0.8;
+    text-decoration: line-through;
+}
+#sec{
+    height: 300px;
+    height: 100%;
+}
