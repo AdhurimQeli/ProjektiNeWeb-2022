@@ -19,7 +19,12 @@
       border-radius: 5px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.3);
       width: 400px;
+      animation: spider 2s 3s;
   }
+  @keyframes spider{
+    from{top:-1000px; }
+    to{top:1000px}
+}
   h2 {
       text-align: center;
       margin: 0 0 20px;
@@ -95,3 +100,5 @@
   .form-control.success input {
     border-color: var(--success-color);
   }
+
+  
