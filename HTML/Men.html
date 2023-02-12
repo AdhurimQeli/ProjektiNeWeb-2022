@@ -16,7 +16,7 @@
 </head>
 
 <body>
- <script src="/JS/sliderfun.js"></script>
+ 
     <section>
         
         <header>
@@ -33,50 +33,27 @@
                 <i class="fas fa-times close-btn"></i>
             </label>
         </header>
-        <div class="position-of-slider">
-        <div class="slider">
-            <div class="slides">
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-            <!-- radio buttons end
-            slide images start -->
-            <div class="slide first">
-                <img src="/Photos/first.jpg" alt="">
+        <section aria-label="Newest Photos">
+            <div class="carousel" data-carousel>
+              <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+              <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+              <ul data-slides>
+                <li class="slide" data-active>
+                  <img src="../Photos/first.jpg" alt="jacket Image #1">
+                </li>
+                <li class="slide">
+                  <img src="../Photos/ja2.webp" alt="jacket Image #2">
+                </li>
+                <li class="slide">
+                  <img src="../Photos/boots2.jpg" alt="boots Image #3">
+                </li>
+              </ul>
             </div>
-            <div class="slide second">
-                <img src="/Photos/ja2.webp" alt="">
-            </div>
-            <div class="slide third">
-                <img src="/Photos/boots1.webp" alt="">
-            </div>
-            <div class="slide fourth">
-                <img src="/Photos/boots2.jpg" alt="">
-            </div>
-            
-            <!-- slide imgs end
-            automatic navigation start -->
-            <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-            </div>
-            <!--end automatic nav...-->
-            </div>
-            <!-- manual navigation-->
-            <div class="navigation-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-
-            </div>
+          </section>
 
             </div>
         </div>
-        
+        <script src="/JS/sliderfun.js"></script>
         <section class="product">
                 <h2 class="product-category">Best sellings </h2>
                 <div class="product-container">
