@@ -60,7 +60,10 @@ header .navigation a:not(:last-child){
 header .navigation a:hover{
     transition: 0.6s;
     background: #fff;
+
+
 }
+
 #heTx{
    
     animation-name: spider;
